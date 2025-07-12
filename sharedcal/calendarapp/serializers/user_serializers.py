@@ -36,3 +36,4 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         new_user.save()
 
         return new_user
+    
