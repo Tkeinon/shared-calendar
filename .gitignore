@@ -61,6 +61,12 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Django project specific
+sharedcal/db.sqlite3
+sharedcal/db.sqlite3-journal
+sharedcal/staticfiles/
+sharedcal/media/
+
 # Flask stuff:
 instance/
 .webassets-cache
@@ -143,6 +149,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Project specific virtual environments
+venv/
+sharedcal/venv/
 
 # Spyder project settings
 .spyderproject
